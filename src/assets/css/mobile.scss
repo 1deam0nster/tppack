@@ -38,7 +38,11 @@
 
 // Все что не мобила
 @include media-breakpoint-up(sm) {
-    .header-block {
-        padding: 0 100px 0 0;
-    }
+	.header-block {
+		padding: 0 100px 0 0;
+	}
+
+	footer{
+		display:none;
+	}
 }

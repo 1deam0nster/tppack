@@ -3,11 +3,11 @@
 	justify-content: space-between;
 }
 
-@include media-breakpoint-up(sm) {
-    .header-block {
-        padding: 0 100px 0 0;
-    }
-}
+// @include media-breakpoint-up(sm) {
+//     .header-block {
+//         padding: 0 100px 0 0;
+//     }
+// }
 
 
 .logo-block {

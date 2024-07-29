@@ -16,15 +16,17 @@ aside {
 	grid-area: sidebar;
     width: 100%;
     border-right: 1px solid #dee2e6;
-    background: $gray-100;
+    // background: $gray-100;
 	// background-color: #45aaf2;
 }
 
 
+
 footer {
-	padding: 20px;
-	grid-area: footer;
-	// background-color: #fd9644;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
 }
 
 .wrapper-grid {
