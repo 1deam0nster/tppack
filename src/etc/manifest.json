@@ -1,0 +1,19 @@
+{
+	"name": "GoPablo",
+	"short_name": "GoPablo",
+	"icons": [
+		{
+			"src": "https://gopablo.s3-eu-west-1.amazonaws.com/img/meta/192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "https://gopablo.s3-eu-west-1.amazonaws.com/img/meta/512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	],
+	"theme_color": "#303030",
+	"background_color": "#303030",
+	"display": "standalone"
+}

@@ -1,0 +1,62 @@
+.header-block {
+	display: flex;
+	justify-content: space-between;
+}
+
+@include media-breakpoint-up(sm) {
+    .header-block {
+        padding: 0 100px 0 0;
+    }
+}
+
+
+.logo-block {
+	display: flex;
+	align-items: center;
+	padding: 0 100px 0 22px;
+}
+
+.logo {
+	width: 32px;
+	padding-right: 8px;
+}
+
+.logo-text {
+	margin: 0 0 0 0;
+}
+
+.info-block {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+
+	font-size: 14px;
+	color: black;
+	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+    flex-direction: column;
+}
+
+@include media-breakpoint-up(sm) {
+    .info-block {
+        flex-direction: row;
+    }
+}
+
+
+
+.map,
+.mail>a,
+.phone>a {
+	text-decoration: none;
+}
+
+.map>img,
+.time>img,
+.mail>img,
+.phone>img{
+    width:16px;
+    height:16px;
+    margin: 0 8px 0 0;
+}
+
+

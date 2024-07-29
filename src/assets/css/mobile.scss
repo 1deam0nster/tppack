@@ -1,0 +1,44 @@
+// Все что мобила
+@media (max-width: 500px) {
+	.wrapper-grid {
+		grid-template-columns: 4fr;
+		grid-template-areas: "header""content""sidebar""footer";
+	}
+
+	.time,
+	.mail {
+		display: none;
+	}
+
+	.header-block {
+		justify-content: space-between;
+		width: 100%;
+	}
+
+	.logo-block {
+		padding: 0;
+	}
+
+	.map,
+	.time,
+	.mail,
+	.phone {
+		padding: 10px 0 0 0;
+
+	}
+
+	.wrapper-grid {
+		display: grid;
+		// grid-gap: 20px;
+		grid-template-columns: 0.5fr 3fr;
+		grid-template-areas: "header  header""sidebar sidebar""content content""footer  footer";
+	}
+
+}
+
+// Все что не мобила
+@include media-breakpoint-up(sm) {
+    .header-block {
+        padding: 0 100px 0 0;
+    }
+}
